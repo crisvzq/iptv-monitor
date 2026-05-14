@@ -4,9 +4,9 @@ repo: iptv-monitor
 sites:
   # AMERICA IPTV
   - name: "[AMERICA] Panel"
-    url: http://icomplai.net/ICOMPLAY/login
+    url: http://icomplay.net/ICOMPLAY/login
   - name: "[AMERICA] DNS 1"
-    url: http://icomplai.net
+    url: http://icomplay.net
     port: 80
   - name: "[AMERICA] DNS 2"
     url: http://iptvglobal.site
@@ -49,5 +49,5 @@ assignees:
 
 notifications:
   - type: telegram
-    token: "8845300591:AAHU8KVOiydsRBu32v81krvZ_GWyZ0Fk_8k"
-    chatId: "1605680780"
+    token: "$NOTIFICATION_TELEGRAM_BOT_TOKEN"
+    chatId: "$NOTIFICATION_TELEGRAM_BOT_TOKEN
