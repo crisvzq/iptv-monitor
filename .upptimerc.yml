@@ -1,31 +1,47 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: crisvzq
+repo: iptv-monitor
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
+  # AMERICA IPTV
+  - name: "[AMERICA] Panel"
+    url: http://icomplay.net/ICOMPLAY/login
+  - name: "[AMERICA] DNS 1"
+    url: http://icomplay.net
+    port: 80
+  - name: "[AMERICA] DNS 2"
+    url: http://iptvglobal.site
+    port: 25461
+  - name: "[AMERICA] DNS 3"
+    url: http://latinostream.xyz
+    port: 80
+
+  # LATINO IPTV (Usando TCP para evitar bloqueos)
+  - name: "[LATINO] Panel"
+    url: https://mv-play.uk:8443/Reseller/login
+  - name: "[LATINO] DNS 1"
+    url: starlessro.uk
+    port: 2082
+    check: "tcp-ping"
+  - name: "[LATINO] DNS 2"
+    url: net01sys.uk
+    port: 2082
+    check: "tcp-ping"
+  - name: "[LATINO] DNS 3"
+    url: corex01.uk
+    port: 2095
+    check: "tcp-ping"
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
+  baseUrl: /iptv-monitor/
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  name: "Estado BELION IPTV"
+  introTitle: "Monitoreo de Estabilidad IPTV"
+  introMessage: "Comparativa en tiempo real entre servidores AMERICA y LATINO."
   navbar:
-    - title: Status
-      href: /
+    - title: Estado
+      href: /iptv-monitor/
     - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+      href: https://github.com/crisvzq/iptv-monitor
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+assignees:
+  - crisvzq
