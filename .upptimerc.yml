@@ -4,7 +4,7 @@ repo: iptv-monitor
 sites:
   # AMERICA IPTV
   - name: "[AMERICA] Panel"
-    url: http://icomplay.net/ICOMPLAY/login
+    url: http://icomplai.net/ICOMPLAY/login
   - name: "[AMERICA] DNS 1"
     url: http://icomplay.net
     port: 80
