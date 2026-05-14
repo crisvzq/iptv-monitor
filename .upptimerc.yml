@@ -4,9 +4,9 @@ repo: iptv-monitor
 sites:
   # AMERICA IPTV
   - name: "[AMERICA] Panel"
-    url: http://icomplai.net/ICOMPLAY/login
+    url: http://icomplay.net/ICOMPLAY/login
   - name: "[AMERICA] DNS 1"
-    url: http://icomplay.net
+    url: http://icomplai.net
     port: 80
   - name: "[AMERICA] DNS 2"
     url: http://iptvglobal.site
@@ -15,7 +15,7 @@ sites:
     url: http://latinostream.xyz
     port: 80
 
-  # LATINO IPTV (Usando TCP para evitar bloqueos)
+  # LATINO IPTV
   - name: "[LATINO] Panel"
     url: https://mv-play.uk:8443/Reseller/login
   - name: "[LATINO] DNS 1"
@@ -36,17 +36,18 @@ status-website:
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: "Estado BELION IPTV"
   introTitle: "Monitoreo de Estabilidad IPTV"
-  introMessage: "Comparativa en tiempo real entre servidores AMERICA y LATINO."
+  introMessage: "Comparativa en tiempo real para evaluar servidores."
   navbar:
     - title: Estado
       href: /iptv-monitor/
     - title: GitHub
       href: https://github.com/crisvzq/iptv-monitor
 
+# --- SECCIÓN CORREGIDA ---
 assignees:
   - crisvzq
 
-  notifications:
+notifications:
   - type: telegram
     token: "$NOTIFICATION_TELEGRAM_BOT_TOKEN"
     chatId: "$NOTIFICATION_TELEGRAM_CHAT_ID"
