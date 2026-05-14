@@ -45,3 +45,8 @@ status-website:
 
 assignees:
   - crisvzq
+
+  notifications:
+  - type: telegram
+    token: "$NOTIFICATION_TELEGRAM_BOT_TOKEN"
+    chatId: "$NOTIFICATION_TELEGRAM_CHAT_ID"
