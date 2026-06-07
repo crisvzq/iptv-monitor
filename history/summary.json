@@ -86,19 +86,19 @@
     "url": "https://mv-play.uk:8443/Reseller/login",
     "icon": "https://icons.duckduckgo.com/ip3/mv-play.uk.ico",
     "slug": "latino-panel",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 672,
-    "timeDay": 314,
-    "timeWeek": 392,
-    "timeMonth": 672,
-    "timeYear": 672,
+    "status": "up",
+    "uptime": "99.72%",
+    "uptimeDay": "93.22%",
+    "uptimeWeek": "99.03%",
+    "uptimeMonth": "99.72%",
+    "uptimeYear": "99.72%",
+    "time": 662,
+    "timeDay": 319,
+    "timeWeek": 385,
+    "timeMonth": 662,
+    "timeYear": 662,
     "dailyMinutesDown": {
-      "2026-06-07": 0
+      "2026-06-07": 98
     }
   },
   {
